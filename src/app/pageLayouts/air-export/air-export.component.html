@@ -1,0 +1,170 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <!-- <mat-card class="airImport"> -->
+            <mat-card-header>
+                <mat-label><b>PORT to PORT</b>
+                    &nbsp;<small>(Based on ETA)</small>
+                </mat-label>
+            </mat-card-header>
+
+            <div class="row L-smallcards mt-4">
+                <div class="col">
+                    <mat-card>
+                        <mat-card-title># Shipments</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col">
+                    <mat-card>
+                        <mat-card-title>ETA+1Days</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col">
+                    <mat-card>
+                        <mat-card-title>ETA+(2+3)Days</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col">
+                    <mat-card>
+                        <mat-card-title>ETA+(4+5)Days</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col">
+                    <mat-card>
+                        <mat-card-title>ETA+6Days</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+
+
+            <div class="row mt-4">
+                <div class="col">
+                    <mat-card class="port">
+                        <mat-card-title class="header">
+                            PORT to PORT (Based on ETA)
+                        </mat-card-title>
+                        <mat-card-content></mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col">
+                        <mat-card class="performance">
+                            <mat-card-title class="header">
+                                <div class="row">
+                                    <div class="col-4">
+                                        User wise Performance
+                                    </div>
+                                    <!-- <div class="col-1"></div> -->
+                                    <div class="col mt-1">
+
+                                        <!-- <p-button label="Submit" icon="pi pi-check" iconPos="right"></p-button> -->
+                                        <button mat-stroked-button class="button-and-icon">
+                                            <span>Billed-</span>
+                                            <mat-icon iconPositionEnd>download</mat-icon>
+                                        </button>
+                                        <!-- </div> -->
+                                        <!-- <div class="col-2 mt-1"> -->
+                                        <button mat-stroked-button  class="button-and-icon">
+                                            <span>UnBilled-</span>
+                                            <mat-icon iconPositionEnd>download</mat-icon>
+                                        </button>
+                                        <!-- </div> -->
+                                        <!-- <div class="col-4 mt-1"> -->
+                                        <button mat-stroked-button  class="button-and-icon">
+                                            <span>Future ETA-</span>
+                                            <mat-icon iconPositionEnd>download</mat-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                            </mat-card-title>
+                            <mat-card-content></mat-card-content>
+                        </mat-card>
+                    </div>
+
+                </div>
+            </div>
+            <!-- </mat-card> -->
+        </div>
+        <div class="col">
+            <!-- <mat-card class="secondHalf"> -->
+            <mat-card-header>
+                <mat-label><b>DOOR to DOOR</b> &nbsp;<small>(Based On Delivery -DLV.Dt)</small></mat-label>
+            </mat-card-header>
+            <div class="row R-smallcards mt-4">
+
+                <div class="col">
+                    <mat-card>
+                        <mat-card-title># Shipment</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col">
+                    <mat-card>
+                        <mat-card-title>DLV.Dt+2Days</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col-3">
+                    <mat-card>
+                        <mat-card-title>DLV.Dt+(3-5)Days</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col-3 DLV">
+                    <mat-card>
+                        <mat-card-title>DLV.Dt+6Days</mat-card-title>
+                        <mat-card-content>0 <small>0%</small></mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <mat-card class="door">
+                        <mat-card-title class="header">
+                            DOOR to DOOR (Based on DLV.Dt.)
+                        </mat-card-title>
+                        <mat-card-content></mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col">
+                        <mat-card class="rightPerfomance">
+                            <mat-card-title class="header">
+                                <div class="row">
+                                    <div class="col-5">
+                                        User wise Performance
+                                    </div>
+                                    <div class="col mt-1 user">
+                                        <button mat-stroked-button  class="button-and-icon">
+                                            <span>Billed-</span>
+                                            <mat-icon iconPositionEnd>download</mat-icon>
+                                        </button>
+                                        <button mat-stroked-button  class="button-and-icon">
+                                            <span>UnBilled-</span>
+                                            <mat-icon iconPositionEnd>download</mat-icon>
+                                        </button>
+                                        <button mat-stroked-button  class="button-and-icon">
+                                            <a>Future ETA-</a>
+                                            <mat-icon iconPositionEnd>download</mat-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                            </mat-card-title>
+                            <mat-card-content></mat-card-content>
+                        </mat-card>
+                    </div>
+                </div>
+            </div>
+            <!-- </mat-card> -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,197 @@
+
+.airImport{
+    background-color: rgb(222, 218, 218);
+    // width:35rem;
+    margin-left: -0.5rem;
+
+}
+.secondHalf{
+    background-color: rgb(222, 218, 218);
+    // width:40rem;
+    margin-left: -1.2rem;
+
+}
+mat-card-title {
+    font-size: 1rem;
+}
+.ptp{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: #000000;
+    small{
+        font-size: 1rem;
+    }
+}
+.dtd{
+    // position: absolute;
+    margin-left:41rem;
+    font-size: 1.5rem;
+    color: #000000;
+    small{
+        font-size: 1rem;
+    }
+}
+
+.header{
+    background-color: rgba(8, 43, 65, 0.872);
+    border-style: dashed;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 5px;
+    height: 2rem;
+    color: #fefffd;
+    padding-left: 0.6rem;
+
+}
+
+.port {
+    width: 40rem;
+    height: 15rem;
+    border-style: dashed;
+    border-radius: 10px;
+    border: 5px;
+    background-color: #fefffd;
+    margin-left: .5rem;
+}
+
+.door {
+    height: 15rem;
+    // width: 39rem;
+    border-style: dashed;
+    border-radius: 10px;
+    border: 5px;
+    background-color: #fefffd;
+    margin-right: .5rem;
+
+
+}
+
+.performance {
+    // background-color: rgba(2, 18, 27, 0.486);
+    border-style: dashed;
+    border-radius: 10px;
+    border: 5px;
+    width: 40rem;
+    height: 5rem;
+    margin-top: 2rem;
+    background-color: #fefffd;
+    margin-bottom: 10rem;
+    button {
+        width: max-content;
+        height: 1.3rem;
+        font-size: small;
+        margin-top: -0.5rem;
+        margin-left: 1rem;
+
+    }
+}
+
+
+.rightPerfomance {
+    position: absolute;
+    border-style: dashed;
+    border-radius: 10px;
+    border: 5px;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 37rem;    
+    background-color: #fefffd;
+    margin-bottom: 10rem;
+
+    // button {
+    //     width: max-content;
+    //     height: 1.3rem;
+    //     font-size: small;
+    //     margin-top: -0.5rem;
+    //     margin-left: -0.9rem;
+
+       
+    // }
+
+}
+.user{
+    margin-left: -2.7rem;
+    width: max-content;
+    button {
+            width: max-content;
+            height: 1.3rem;
+            font-size: small;
+            margin-top: -0.5rem;
+            // margin-left: -2rem;
+    
+        }
+
+}
+
+
+.load {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.custom-button {
+    border: 1px solid #2d5a16;
+    /* Add border */
+    padding: 8px 16px;
+    /* Adjust padding */
+    border-radius: 4px;
+    /* Add border radius */
+    width: 13rem;
+    margin-left: 1rem;
+}
+
+.sidenav {
+    width: 16rem;
+}
+
+.custom-slide-toggle .mat-slide-toggle-bar {
+    width: 5rem; /* Adjust the width as needed */
+    
+  }
+  
+.icons{
+    margin-left: 15rem;
+}
+.L-smallcards{
+    mat-card{
+        background-color: #fefffd;
+        border: 1px solid #fff7f7;
+        border-radius: 10px;
+        color: #000000;
+        
+    }
+    mat-card-content{
+        font-size:1.3rem;
+        small{
+            font-size:0.8rem;
+        }
+    }
+
+    mat-card-title{
+        font-size:0.8rem;
+
+    }
+}
+.R-smallcards{
+    mat-card{
+        background-color: #fefffd;
+        border: 1px solid #fff7f7;
+        border-radius: 10px;
+        color: #000000;
+        
+    }
+    mat-card-content{
+        font-size:1.3rem;
+        small{
+            font-size:0.8rem;
+        }
+    }
+
+    mat-card-title{
+        font-size:0.8rem;
+
+    }
+}
+.DLV{
+    width:7rem;
+}

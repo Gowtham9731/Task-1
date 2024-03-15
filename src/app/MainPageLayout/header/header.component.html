@@ -1,0 +1,84 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav #sidenav mode="side" class="sidenav" opened>
+    <mat-nav-list>
+      <mat-card class="logo">
+        <mat-card-header>LoGo</mat-card-header>
+
+      </mat-card>
+      <br>
+      <!-- <mat-card> -->
+      <mat-card-header class="date">
+        <h3>Date Range</h3>
+      </mat-card-header>
+      <!-- <br> -->
+      <mat-label>16/02/2021 - 21/02/2021</mat-label>
+      <mat-card-footer>&nbsp;</mat-card-footer>
+      <!-- </mat-card> -->
+      <hr>
+      <div class="row mt-4">
+        <a routerLink="#"><button class="btn btn-outline custom-button ">FCL IMPORT</button></a>
+      </div>
+      <div class="row mt-4">
+        <a routerLink="#"><button class="btn btn-outline custom-button ">OCEAN EXPORT</button></a>
+      </div>
+      <div class="row mt-4">
+
+        <a routerLink="/airImport"><button class="btn btn-outline custom-button ">AIR IMPORT</button></a>
+      </div>
+
+      <div class="row mt-4">
+
+        <a routerLink="/airExport"><button class="btn btn-outline custom-button ">AIR EXPORT</button></a>
+
+      </div>
+
+    </mat-nav-list>
+    <!-- <br>
+        <br> -->
+    <hr>
+
+    <mat-card class="loaddata">
+      <mat-card-header class="load">
+        <h3>Load Data</h3>
+      </mat-card-header>
+      <mat-card-content class="mt-1">
+        <input type="file" class="file-upload form-control">
+      </mat-card-content>
+    </mat-card>
+    <button class="mt-4 btn btn-success md-4">Upload Data</button>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <span> <mat-icon>trending_up</mat-icon>Control Tower - Billed Parameter (FIA) </span>
+      <span class="spacer"></span>
+
+      
+
+        <!-- <mat-slide-toggle class="custom-slide-toggle" [color]="isChecked ? 'primary' : 'accent'"
+          formControlName="isChecked">
+          <span class="toggle-label">For %</span>
+        </mat-slide-toggle> -->
+
+        <!-- <div class="control-section">
+          <ejs-switch [checked]="true"></ejs-switch>`
+          </div> -->
+        <div class="toggle">
+          <label class="toggle-switch">
+            <input type="checkbox" value="For %">
+            <div class="slider"></div>
+          </label>
+        </div>
+
+        &nbsp;
+        <span class="icons">
+        <button class="btn btn-outline-secondary">
+          <mat-icon>filter_alt </mat-icon> Filters !
+        </button>&nbsp;
+        <button class="btn btn-outline-secondary"><mat-icon>autorenew</mat-icon></button>&nbsp;
+        <button class="btn btn-outline-secondary"><mat-icon>power_settings_new</mat-icon></button>
+      </span>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

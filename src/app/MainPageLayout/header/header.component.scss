@@ -1,0 +1,131 @@
+mat-sidenav-container {
+    background-color: rgb(242, 242, 242);
+    color: #060606;
+
+    mat-toolbar {
+        background-color: rgb(255, 255, 255);
+        color: #060606;
+        border-style: dashed;
+        border-radius: 5px;
+        border: 5px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+        button{
+            background-color: rgb(255, 255, 255);
+            color: #060606;
+            // border-style:dashed;
+            // border: 10px;
+
+        }
+    }
+    mat-sidenav{
+        background-color: rgb(255, 250, 250);
+        color: #060606;
+        border-style: dashed;
+        border-radius: 5px;
+        border: 5px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+.sidenav {
+    width: 12rem;
+    // margin-left: .3rem;
+
+    mat-nav-list{
+    margin-left: .3rem;
+
+    }
+}
+.custom-button {
+    
+    border: 1px solid #2d5a16;
+    padding: 8px 16px;
+    border-radius: 4px;
+    width: 10rem;
+    // margin-left: 2rem;
+    
+}
+.custom-button:hover{
+background-color: rgba(8, 43, 65, 0.872);
+}
+.loaddata{
+    width:11rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.icons{
+    margin-left: 25rem;
+
+    // .custom-slide-toggle .mat-slide-toggle-bar {
+    //     width: 5rem; /* Adjust the width to your desired length */
+    // }
+    
+    // .custom-slide-toggle .mat-slide-toggle-thumb {
+    //     width: 30px; /* Adjust the width of the thumb if necessary */
+    // }
+}
+.logo{
+    width:11rem;
+}
+.date{
+    margin-left: -.2rem;
+}
+.toggle-label{
+    color: #060606;
+}
+// ::ng-deep .mat-mdc-slide-toggle{
+//     width: 50px;
+//     height: 20px;
+// }
+
+// ::ng-deep .mat-mdc-slide-toggle .mdc-form-field {
+//     width: 50px;
+//     height: 20px;
+// }
+
+.toggle-switch {
+    height: 36px;
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    // margin-left: 1rem;
+    input {
+      display: none;
+
+      &:checked + .slider {
+        background-color: rgba(5, 243, 5, 0.845);
+      }
+      &:checked + .slider::after {
+        -webkit-transform: translateX(87px);
+        -ms-transform: translateX(87px);
+        transform: translateX(87px);
+      }
+    }
+    .slider {
+      position: absolute;
+      border-radius: 40px;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(52, 59, 79, 0.798);
+      transition: 2s;
+      &::after {
+        position: absolute;
+        border-radius: 20px;
+
+        content: '';
+        height: 28px;
+        width: 28px;
+        background-color: white;
+        left: 4px;
+        bottom: 4px;
+        transition: 2s;
+      }
+    }
+  }
+  .toggle{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 40rem;
+  }
